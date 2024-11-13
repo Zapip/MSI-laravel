@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Default Title')</title>
     @vite('resources/css/app.css')
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="h-full flex flex-col bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-opacity-50 backdrop-filter backdrop-blur-lg">
+<body
+    class="h-full flex flex-col bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-opacity-50 backdrop-filter backdrop-blur-lg">
     <header>
         @include('partials.header')
     </header>

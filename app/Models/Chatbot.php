@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Chatbot extends Model
 {
     use HasFactory;
-    protected $connection = 'mysql1';
+    protected $connection = 'mysql';
 
     protected $table = 'chatbot';
     protected $primaryKey = 'id';
